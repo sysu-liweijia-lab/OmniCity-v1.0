@@ -2,7 +2,7 @@
 
 ## Introduction
 This project is used in Multi-level task based on MMDetection, which include models, and correlative configs.  
-**Note**： If you want to check more about our work,please refer [here](https://city-super.github.io/omnicity).
+**Note**： If you want to check more about our work, please refer [here](https://city-super.github.io/omnicity).
 
 ## Overview of the models and its related tasks
 Tasks: Instance segmentation, Land use segmentation, Plane segmentation.
@@ -40,7 +40,7 @@ Mono-view image|512*512|Mask R-CNN|Plane segmentation|[Model](https://drive.goog
 
 ## Usage
 ### Data preparation
-If you want to use your own dataset whatever training a new model or test the models above, please prepare data following [MMdetection](https://github.com/open-mmlab/mmdetection)(Dataset in COCO format is preferred). And the data structure should look like below:
+If you want to use your own dataset test the models above, please prepare data following [MMdetection](https://github.com/open-mmlab/mmdetection)(Dataset in COCO format is preferred). And the data structure should look like below:
 ```
 mmdetection
 ├── data
@@ -79,8 +79,9 @@ bash tools/dist_test.sh \
     [--eval ${EVAL_METRICS}]
 ```
 With `new dataset`:
-1. Prepare the dataset following the above rules
-2. Refer to the preceding operations
+
+* Prepare the dataset following the above rules
+* Refer to the preceding operations
 
 ## Citation
 ```
