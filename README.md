@@ -2,10 +2,10 @@
 
 ## Introduction
 This project is used in Multi-level task based on MMDetection, which include models, and correlative configs.  
-**Note**： Our datasets (Satellite view and Street view) are available [here](https://city-super.github.io/omnicity)
+**Note**： If you want to check more about our work,please refer [here](https://city-super.github.io/omnicity).
 
 ## Overview of the models and its related tasks
-Tasks: Instance segmentation, Land use segmentation, Plane segmentation
+Tasks: Instance segmentation, Land use segmentation, Plane segmentation.
 ### Satellite level: small view
 Data Type |Size|Method | Task | Download
 -------|-------|-------|---------|-----
@@ -40,7 +40,7 @@ Mono-view image|512*512|Mask R-CNN|Plane segmentation|[Model](https://drive.goog
 
 ## Usage
 ### Data preparation
-Prepare data following [MMdetection](https://github.com/open-mmlab/mmdetection). And the data structure should look like below:
+If you want to use your own dataset whatever training a new model or test the models above, please prepare data following [MMdetection](https://github.com/open-mmlab/mmdetection)(Dataset in COCO format is preferred). And the data structure should look like below:
 ```
 mmdetection
 ├── data
@@ -50,8 +50,38 @@ mmdetection
 │   │   ├── val2017
 │   │   ├── test2017
 ```
-### Train
-If you want to train a new model using our dataset and 
+### Model test
+With `OmniCity dataset`:
+```
+# single-gpu testing
+python tools/test.py \
+    ${CONFIG_FILE} \
+    ${CHECKPOINT_FILE} \
+    [--out ${RESULT_FILE}] \
+    [--eval ${EVAL_METRICS}] \
+    [--show]
+
+# CPU: disable GPUs and run single-gpu testing script
+export CUDA_VISIBLE_DEVICES=-1
+python tools/test.py \
+    ${CONFIG_FILE} \
+    ${CHECKPOINT_FILE} \
+    [--out ${RESULT_FILE}] \
+    [--eval ${EVAL_METRICS}] \
+    [--show]
+
+# multi-gpu testing
+bash tools/dist_test.sh \
+    ${CONFIG_FILE} \
+    ${CHECKPOINT_FILE} \
+    ${GPU_NUM} \
+    [--out ${RESULT_FILE}] \
+    [--eval ${EVAL_METRICS}]
+```
+With `new dataset`:
+1. Prepare the dataset following the above rules
+2. Refer to the preceding operations
+
 ## Citation
 ```
 @article{li2022omnicity,
