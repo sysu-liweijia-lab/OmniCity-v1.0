@@ -1,7 +1,8 @@
 # OmniCity-v2.0
 
 ## Introduction
-This dataset is used in Multi-level task based on MMDetection, which include model, datasets(satellite view&amp;street view) and correlative configs.
+This project is used in Multi-level task based on MMDetection, which include models, and correlative configs.  
+**Note**： Our datasets (Satellite view and Street view) are available [here](https://city-super.github.io/omnicity)
 
 ## Overview of the models and its related tasks
 Tasks: Instance segmentation, Land use segmentation, Plane segmentation
@@ -37,6 +38,20 @@ Mono-view image|512*512|Mask R-CNN|Instance segmentation|[Model](https://drive.g
 Mono-view image|512*512|Mask R-CNN|Land use segmentation|[Model](https://drive.google.com/file/d/1Ysly8Bzeb8ODfSfMsjo-x_zo9oAIAq7Y/view?usp=sharing)&[log](https://drive.google.com/file/d/1CilgIiz_LEioPQkcM5W7BEGIzQMe9pvA/view?usp=sharing)
 Mono-view image|512*512|Mask R-CNN|Plane segmentation|[Model](https://drive.google.com/file/d/18MXiewv7UhHFyHGClQeuHrRs2zZZb2FV/view?usp=sharing)&[log](https://drive.google.com/file/d/1tMgRaIEYA7nKtwqTW2IesMk5HQpkFmfS/view?usp=sharing)
 
+## Usage
+### Data preparation
+Prepare data following [MMdetection](https://github.com/open-mmlab/mmdetection). And the data structure should look like below:
+```
+mmdetection
+├── data
+│   ├── coco
+│   │   ├── annotations
+│   │   ├── train2017
+│   │   ├── val2017
+│   │   ├── test2017
+```
+### Train
+If you want to train a new model using our dataset and 
 ## Citation
 ```
 @article{li2022omnicity,
