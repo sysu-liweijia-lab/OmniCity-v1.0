@@ -1,4 +1,4 @@
-# OmniCity-v2.0
+# OmniCity-v1.0
 
 ## Introduction
 This project is used in Multi-level task based on MMDetection, which include models, and correlative configs.  
