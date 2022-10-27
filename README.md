@@ -1,7 +1,7 @@
 # OmniCity-v1.0
 
 ## Introduction
-This project is used in Multi-level task based on MMDetection, which include models, and correlative configs.  
+This project is used in Multi-level task based on MMDetection, which includes models and correlative configs.  
 **Note**： If you want to check more about our work, please refer [here](https://city-super.github.io/omnicity).
 
 ## Overview of the models and its related tasks
