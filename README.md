@@ -83,13 +83,3 @@ With `new dataset`:
 * Prepare the dataset following the above rules
 * Refer to the preceding operations
 
-## Citation
-```
-@article{li2022omnicity,
-    title={OmniCity: Omnipotent City Understanding with Multi-level and Multi-view Images},
-    author={Li, Weijia and Lai, Yawen and Xu, Linning and Xiangli, Yuanbo and Yu, Jinhua and He, Conghui and Xia, Gui-Song and Lin, Dahua},
-    journal={arXiv e-prints},
-    pages={arXiv--2208},
-    year={2022}
-    }
-```
