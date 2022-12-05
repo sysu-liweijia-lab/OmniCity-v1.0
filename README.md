@@ -9,7 +9,7 @@ Tasks: Instance segmentation, Land use segmentation, Plane segmentation.
 ### Satellite level: small view
 Data Type |Size|Method | Task | Download
 -------|-------|-------|---------|-----
-Satallite image|512*512|Mask R-CNN|Instance segmentation|[Model](https://drive.google.com/file/d/17iHFTJUg-6dhzfCvA1rgGutrxGSRv0U-/view?usp=sharing)&[log](https://drive.google.com/file/d/13jdfwFZx14Hx3A9GmDNaBKGhijTnETF5/view?usp=sharing)
+Satallite image|512*512|Mask R-CNN|Instance segmentation|[Model](https://drive.google.com/file/d/1mWgGCbdS-qr63AhgRPgqWPUoO6naizsZ/view?usp=share_link)&[log](https://drive.google.com/file/d/13jdfwFZx14Hx3A9GmDNaBKGhijTnETF5/view?usp=sharing)
 Satallite image|512*512|MS R-CNN|Instance segmentation|[Model](https://drive.google.com/file/d/1a134TgMJuq2mFeI35Squ7j-z44zE7caT/view?usp=sharing)&[log](https://drive.google.com/file/d/1WF5v4gHjvaGLMA6ZQipSeTh9R13UY0UC/view?usp=sharing)
 Satallite image|512*512|CARAFE|Instance segmentation|[Model](https://drive.google.com/file/d/17m3dKxYIvguSJ6xDZ59ZawtFS_DkFLuA/view?usp=sharing)&[log](https://drive.google.com/file/d/1r9lWd3r-w6mFkdG4DJIxuZB6-n9KybxB/view?usp=sharing)
 Satallite image|512*512|Cascade|Instance segmentation|[Model](https://drive.google.com/file/d/1SnXI9GOonTGioDMC7KLn7Xi-qM4Ump7F/view?usp=sharing)&[log](https://drive.google.com/file/d/1SnXI9GOonTGioDMC7KLn7Xi-qM4Ump7F/view?usp=sharing)
