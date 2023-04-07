@@ -40,7 +40,7 @@ Mono-view image|512*512|Mask R-CNN|Plane segmentation|[Model](https://drive.goog
 
 ## Usage
 ### Data preparation
-The OmniCity dataset can be downloaded from [here](https://opendatalab.com/OmniCity)
+The OmniCity dataset can be downloaded from [https://opendatalab.com/OmniCity](https://opendatalab.com/OmniCity).
 
 If you want to use your own dataset test the models above, please prepare data following [MMdetection](https://github.com/open-mmlab/mmdetection)(Dataset in COCO format is preferred). And the data structure should look like below:
 ```
