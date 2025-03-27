@@ -85,3 +85,16 @@ With `new dataset`:
 * Prepare the dataset following the above rules
 * Refer to the preceding operations
 
+## 😊Citation
+
+If you use our dataset, codebase or models in your research, please consider cite.
+
+```
+@inproceedings{li2023omnicity,
+  title={Omnicity: Omnipotent city understanding with multi-level and multi-view images},
+  author={Li, Weijia and Lai, Yawen and Xu, Linning and Xiangli, Yuanbo and Yu, Jinhua and He, Conghui and Xia, Gui-Song and Lin, Dahua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17397--17407},
+  year={2023}
+}
+```
